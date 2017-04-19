@@ -1,0 +1,1122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.xdcauhinh{
+	margin-top: 40px;
+}
+
+.flash-success{
+	background: #4caf50;
+	color: #fff;
+	width: 300px;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	right: 20px;
+	z-index: 1;
+	border: none;
+	box-shadow: 2px 2px 5px #6d6d6d;
+}
+
+.error{
+	color:red;
+}
+
+.box-sp{
+	border:1px solid #ececec;
+	margin-right: 5px;
+	padding: 20px 0;
+}
+
+.thongbao{
+	width: 300px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+/*Phan tren cung trang web*/
+
+.top-header{
+	border-bottom: 1px solid #d2d2d2;
+	height: 50px;
+}
+
+.icon-hotline{
+	font-size: 19px;
+}
+
+.hotline h5{
+	color:#999;
+	line-height: 30px;
+}
+
+/*Phan logo*/
+
+.logo-search{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+.login-register ul li{
+	float: left;
+	padding: 0 10px;
+}
+
+.login-register ul li a{
+	color:#999;
+	line-height: 50px;
+}
+
+.login-register ul li a:hover{
+	color: #13938e;
+}
+
+.login-register ul li:hover{
+	background: none;
+}
+
+.logo img{
+	width: 55%;
+}
+
+/* End phan logo*/
+
+/*Phan tim kiem*/
+
+.timkiem{
+	padding-top: 27px;
+}
+
+.form-timkiem{
+	width: 80%;
+	float: left;
+	border-radius: 0;
+}
+
+.btn-timkiem{
+	border-radius: 0;
+	background: #34495e;
+	height: 34px;
+}
+
+.btn-timkiem:hover{
+	background: #0B7D79;
+}
+.ketquatimkiem{
+	width: 80%;
+	background: white;
+	margin-top: 5px;
+	border: 1px solid #f1f1f1;
+	box-shadow: 3px 3px 3px grey;
+	border-radius: 0 0 4px 4px;
+}
+
+.ketquatimkiem>p{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.ketquatimkiem ul{
+	padding:5px;
+}
+
+.ketquatimkiem ul li{
+	border-bottom: 1px solid #f7f7f7;
+}
+
+/*End phan tim kiem*/
+
+/* Phan gio hang*/
+
+.countgiohang{
+	margin-top: 28px;
+	margin-bottom: 10px;
+}
+
+.icon-giohang{
+	padding: 9px;
+	background: #34495e;
+	color:#fff;
+}
+
+/* End gio hang*/
+
+/*Phan menu trang web*/
+
+.top-menu{
+	background: #fff;
+	border: 1px solid #EAEAEA;
+	min-height: 60px;
+}
+
+.main-menu>ul>li{
+	float: left;
+	boder:1px solid black;
+	padding: 0 30px;
+	line-height: 50px;
+	position: relative;
+}
+
+.main-menu>ul>li:hover{
+	background: #34495e;
+}
+
+.main-menu>ul>li>a{
+	line-height: 70px;
+	font-size: 17px;
+	color: #3E3E3E;
+}
+
+.main-menu>ul>li:hover a{
+	color:#fff;
+}
+
+.toggle-menu{
+	display: none;
+}
+
+.main-menu>ul>li:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu {
+	min-width: 350px;
+	background: #34495e;
+	position: absolute;
+	z-index: 100;
+	display: none;
+	left: 0;
+	box-shadow: 3px 3px 3px #a59494;
+}
+
+.sub-menu li{
+	text-align: center;
+	float: left;
+	width: 33.33%;
+
+}
+
+.sub-menu li:hover{
+	background: #283A4C;
+}
+
+.sub-menu li a{
+	color: #fff;
+}
+/*Phan news va phan slider*/
+
+.icon-news{
+	float: left;
+	font-size: 7px;
+	padding-top: 7px;
+	padding-right: 8px;
+	color: #13938e;
+}
+
+.slider-news{
+	margin-top: 20px;
+	position: relative;
+	z-index: -1;
+}
+
+.box-slider{
+	margin: 20px 0;
+}
+
+.slider{
+	position: relative;
+}
+
+.title-news{
+	background: #222A2C;
+	height: 35px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.title-news i{
+	line-height: 35px;
+}
+
+.content-news ul li a{
+	color: #2A2A2A;
+}
+
+.content-news ul li a:hover{
+	color: #13938e;
+}
+
+
+/*Sytle cho phan slider*/
+
+
+.pre-slider{
+	position: absolute;
+	border:none;
+	position: absolute;
+	top: 47%;
+	left: 15px;
+	z-index: 1;
+	font-size: 25px;
+	cursor: pointer;
+	color:#fff;
+}
+
+.next-slider{
+	color:#fff;
+	right: 15px;
+	position: absolute;
+	top: 47%;
+	z-index: 1;
+	font-size: 25px;
+
+	cursor: pointer;
+}
+
+.slider img{
+	margin: 0 auto;
+}
+
+
+/*Phan navigation*/
+.navigation{
+	padding-top: 20px;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+
+.title-navigation{
+	margin-bottom: 10px;
+}
+
+.hr-navigation .hr{
+	width: 100%;
+	margin-top: 17px;
+	height: 2px;
+	background: #13938e;
+
+}
+
+.content-nav-item{
+	position: relative;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+
+.nav-item img{
+	width: 100%;
+	-moz-transition: all 0.5s;
+	-moz-transform :scale(1);
+	-webkit-transition: all 0.5s;
+	-webkit-transform :scale(1);
+}
+
+.nav-item:hover .img-nav{
+	-moz-transition: all 0.5s;
+	-moz-transform: scale(1.3);
+	-webkit-transition: all 0.5s;
+	-webkit-transform: scale(1.3);
+}
+
+.background-nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: RGBA(0, 0, 0, 0.51);
+	z-index: 2;
+}
+
+.nav-item a{
+	position: absolute;
+	top: 48%;
+	left: 32%;
+	z-index: 3;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.img-sanpham img{
+	width: 85%;
+}
+
+
+/*Phan san pham ban chay && san pham moi ve && san pham xem nhieu*/
+
+.sanpham-banchay{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.my-tab-content{
+	padding-top: 30px;
+}
+
+.my-dots{
+	width: 20px;
+	height: 20px;
+	background: red;
+}
+
+.pre-slider-banchay{
+	position: absolute;
+	cursor: pointer;
+	left: 45%;
+	z-index: 1;
+	bottom: -25px;
+	font-size: 17px;
+}
+
+.next-slider-banchay{
+	position: absolute;
+	cursor: pointer;
+	left: 48%;
+	bottom: -25px;
+	font-size: 17px;
+}
+
+
+/*End san pham ban chay, xem nhieu, moi ve*/
+
+
+/*Danh sach san pham*/
+
+.count-total-product{
+	color:#575757;
+	    line-height: 46px;
+}
+
+.main-sanpham{
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.main-product{
+	padding-left: 20px;
+}
+
+.content-filter ul {
+	padding: 0 5px;
+
+}
+
+.content-filter ul li{
+	padding: 5px 0;
+}
+
+.content-filter ul li:last-child{
+	border-bottom:none
+}
+.title-filter{
+	width: 100%;
+	height: 46px;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 20px;
+}
+
+.title-filter p{
+	color: #4C4C4C;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.title-danhmuc{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.title-danhmuc h4{
+	margin-left: 10px;
+}
+
+.icon-title{
+	font-size: 29px;
+	color: #13938e;
+	margin-right: 8px;
+}
+
+.title-danhmuc a{
+	margin-right: 10px;
+	line-height: 40px;
+}
+
+.col-sanpham{
+	padding: 3px 3px;
+	position: relative;
+}
+
+.box-sanpham{
+	padding: 20px 0;
+	border: 1px solid #ececec;
+	text-align: center;
+}
+
+.name-sanpham{
+	margin-top:20px;
+}
+
+.name-sanpham h5{
+	font-weight: bold;
+}
+
+.price-sanpham span{
+	margin-right: 10px;
+}
+
+.old-price{
+	font-size: 13px;
+	text-decoration: line-through;
+	opacity: 0.8;
+	color: #242424;
+}
+
+.new-price{
+	color: #d41212;
+	font-size: 18px;
+}
+
+.option-sanpham{
+	margin-top: 20px;
+}
+
+/*Pre footer*/
+.pre-footer{
+	text-align: center;
+	border-top: 2px solid #34495e;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+}
+
+.icon-pre-footer{
+	color: #13938e;
+	font-size: 60px;
+}
+
+.box-pre-footer p{
+	margin-top: 10px;
+	font-weight: bold;
+	color: #444242;
+}
+
+.box-footer h4{
+	color:#fff;
+	font-size: 17px;
+}
+/* End pre-footer*/
+
+
+/*Phan login*/
+.container-login{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.title-form{
+	margin-bottom: 20px;
+}
+/* End phan login*/
+
+
+/*Phan tong hop tin tuc*/
+.all-tintuc{
+	margin-top: 30px;
+}
+
+/* Tin binh luan nhieu nhat*/
+
+.title-tinbinhluan{
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.img-tinbinhluan img{
+	width:100%;
+}
+
+.box-tinxemnhieu{
+	padding-left: 5px;
+}
+
+
+/*Tin tuc moi*/
+
+.title-des-listnews{
+	padding-left: 10px;
+}
+
+.title-listnews{
+	font-size: 22px;
+}
+
+
+.time-postnews p{
+	color: #999;
+}
+
+.listnews-tinxemnhieu{
+	margin-top: 40px;
+}
+
+.img-list-news img{
+	width: 100%;
+}
+
+/*Tin tuc xem nhieu*/
+
+.img-tinxemnhieu img{
+	width: 100%:;
+}
+
+.title-tinxemnhieu{
+	margin-top: 8px;
+}
+
+.box-tinxemnhieu{
+	margin-bottom: 10px;
+}
+
+
+
+/* Phan chi tiet san pham*/
+
+.main-chitiet{
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+
+.left-main-chitiet{
+	padding-top: 20px;
+
+}
+
+
+.right-main-chitiet{
+	padding-left: 100px;
+}
+
+.price-chitiet-sp{
+	margin-left: 10px;
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.price-cu-sp{
+	margin-left: 20px;
+	color: #1D1F21;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+
+.box-chitiet-2, .box-chitiet-3{
+	margin-top: 30px;
+	border: 1px solid #C5C5C5;
+	padding: 10px;
+
+}
+
+.box-chitiet-3{
+	padding-top: 0;
+	border: none;
+}
+
+.khuyen-mai li p{
+	font-size: 13px;
+}
+
+
+.item-slider-chitiet{
+	width: 100px;
+	padding: 10px 0;
+}
+
+.item-big-chitiet img{
+	width: 100%;
+}
+
+.slider-nav{
+	padding: 12px 0;
+	margin-top: 30px;
+}
+
+.item-slider-chitiet{
+	border: 1px solid #BDB8B8;
+	margin: 0 5px;
+}
+
+.pre-slider-sp{
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+	left: -15px;
+	cursor: pointer;
+}
+
+.next-slider-sp{
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+	right: -20px;
+	cursor: pointer;
+}
+
+.chonmau{
+	margin-top: 7px;
+}
+
+.buysp{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.btn-muangay{
+	background: #13938e;
+	padding:10px 20px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.btn-themvao-giohang{
+	background: #9F2512;
+	padding:10px 20px;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+/* end chi tiet san pham*/
+
+
+
+/*Thong so ky thuat*/
+.model-xemdayduthongtin{
+	color: #13938e;
+	cursor: pointer;
+}
+
+.thongtin-sanpham{
+	padding-top: 20px;
+}
+
+.thongtin-sanpham img{
+	margin-bottom: 20px;
+}
+
+.form-comment{
+	margin-top: 50px;
+}
+
+.avatar-cmt img{
+	width: 50px;
+}
+
+.total-count-comment{
+	padding:5px 10px;
+	background: red;
+	color: #fff;
+	font-size: 10px;
+	border-radius: 4px;
+	position: absolute;
+	top: 0;
+	right: -20px;
+}
+
+.txt-comment {
+	margin-top: 20px;
+	border-bottom: 1px solid #E5E4E4;
+	padding-bottom: 15px;
+}
+
+.rep-cmt{
+	margin-top: 20px;
+	background: whitesmoke;
+	padding:15px;
+}
+
+.form-repcmt{
+	background: #fff;
+	padding-bottom: 10px;
+	text-indent: 10px;
+}
+
+.rep-cmt img{
+	width: 50px;
+	margin-top: 10px;
+}
+
+.btn-cmt{
+	margin-top: 20px;
+}
+
+.username-cmt{
+	margin-right: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	color:#365899;
+}
+
+.count-rep{
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.traloi-cmt{
+	margin-right: 20px;
+}
+
+.sua-cmt{
+	margin-left: 20px;
+}
+
+.box-rep-cmt{
+	margin-top: 20px;
+}
+
+.main-cmt{
+	position: relative;
+}
+
+.eidt-delete-cmt{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 20px;
+	top: 0;
+}
+
+.drop-action-cmt{
+	margin-top: 17px;
+}
+
+.view-rating li{
+	padding: 10px 0;
+}
+
+.view-rating li .motsao{
+	width: 30px;
+}
+
+.view-rating li .haisao{
+	width: 54px;
+}
+
+.view-rating li .basao{
+	width: 88px;
+}
+
+.view-rating li .bonsao{
+	width: 115px;
+}
+
+.view-rating li .namsao{
+	width: 150px;
+}
+
+
+
+/****** Style Star Rating Widget *****/
+fieldset, label { margin: 0; padding: 0; }
+.title-rating{
+	float: left;
+	padding-top: 15px;
+    margin-right: 20px;
+}
+
+.text-rating{
+	float: left;
+	padding-top: 15px;
+    margin-left: 20px;
+}
+
+.rating { 
+	border: none;
+	float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+	margin: 5px;
+	font-size: 1.25em;
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f005";
+}
+
+.rating > .half:before { 
+	content: "\f089";
+	position: absolute;
+}
+
+.rating > label { 
+	color: #ddd; 
+	float: right;
+	font-size: 20px;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+/*San pham tuong tu*/
+
+.sanpham-tuongtu{
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+.pre-slider-sp-tuongtu{
+	position: absolute;
+	top: -54px;
+	z-index: 1;
+	right: 30px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.next-slider-sp-tuongtu{
+	position: absolute;
+	top: -54px;
+	z-index: 1;
+	right: 5px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+/*Phan gio hang cua ban*/
+
+.content-giohang{
+	margin-top: 20px;
+}
+.table-giohang tbody tr td{
+	padding: 15px;
+}
+
+.table-giohang thead tr th{
+	padding: 15px;
+}
+
+.soluong-sp{
+	border:none;
+	text-indent: 30px;
+	max-width: 70px;
+}
+
+.title-giohang{
+	margin-top: 30px;
+	border-bottom: 1px solid #13938E;
+	padding-bottom: 30px;
+}
+
+.td-tensanpham img{
+	width: 100px;
+}
+
+.box-giohang{
+	margin-bottom: 5px;
+}
+
+.icon-title-giohang{
+	font-size: 25px;
+}
+
+.xoasanpham{
+	margin-left: 30px;
+}
+
+.icon-xoasanpham{
+	color: red;
+}
+
+.content-tongtien{
+	border-top: 1px solid #ddd;
+	padding: 20px 0 20px 0;
+}
+
+.btn-thanhtoan{
+	background: #4caf50;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.btn-xoagiohang{
+	background: #A91B1B;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.btn-xoagiohang:hover{
+	background: #9C0A0A;
+}
+
+.btn-thanhtoan:hover{
+	background: #097625;
+}
+
+.tongtien-giohang{
+	padding-right: 30px;
+}
+
+
+/*end gio hang cua ban*/
+
+/*Phan lien he*/
+
+.lienhe{
+	width :100%;
+	margin-top: 40px;
+	padding-bottom: 30px;
+}
+
+.main-lienhe{
+}
+
+.left-lienhe{
+	padding-top: 50px;
+	padding-left: 80px;
+}
+
+.title-lienhe{
+	border-bottom: 1px solid #13938e;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.btn-lienhe{
+	background: #13938e;
+	padding: 10px 30px;
+}
+
+.btn-lienhe:hover{
+	background: #076E6A;
+}
+
+/*end lien he*/
+
+
+/*Danh muc san pham*/
+.filterCat{
+	margin: 20px 0;
+}
+
+.view-hover{
+	width: 99%;
+	height: 99%;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left:0;
+	padding: 10px;
+	display: none;
+}
+
+.view-hover:hover{
+	box-shadow: 3px 3px 14px gray;
+}
+
+.col-sanpham:hover .view-hover{
+	display: block;
+}
+
+.img-discount{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.text-discount{
+	position: absolute;
+	top: 0;
+	right: 5px;
+	z-index: 2;
+	color: #fff;
+}
+
+.new-price-hover{
+    font-size: 16px;
+    color: red;
+    margin-right: 20px;
+}
+
+.old-price-hover{
+	text-decoration: line-through;
+}
+
+
+.name-hover-product{
+	font-size: 17px;
+}
+
+
+
+/*Phan footer*/
+footer{
+	background: #34495e;
+	color: #fff;
+	padding-top:20px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+.box-footer p{
+	margin-left: 15px;
+}
+
+footer a{
+	color:#fff;
+}
+
+.filterpricefrom{
+	float: left;
+	width: 70px;
+	margin-right: 10px;
+}
+
+.filterpriceto{
+	float: left;
+	width: 70px;
+}
+
+.box-filter{
+	margin-right: 20px;
+}
+
+.button-filter-price{
+	width:100px;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

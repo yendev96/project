@@ -1,0 +1,39 @@
+
+/* Cấu hình cho màn hình từ 768px trở xuống*/
+@media screen and (max-width: 768px) {
+    .search{
+      margin-top: 15px;
+    }
+
+    .col-filter{
+        padding-right: 0;
+    }
+
+    .col-add-admin{
+        padding-right: 0;
+    }
+
+    .icon-edit, .icon-trash{
+        margin:5px;
+    }
+
+}
+
+/* Cấu hình cho màn hình từ 992px trở xuống*/
+@media screen and (max-width: 992px) {
+    .right-heading{
+      margin-top: 10px;
+    }
+    
+    .col-filter:nth-child(2){
+        padding-right: 0;
+    }
+
+    .tbl-product > thead > tr > th.th-name{
+        min-width:300px;
+    }
+
+    .add-admin{
+        margin-top: 10px;
+    }
+}
