@@ -10,6 +10,6 @@ class ImgProduct extends Model
     protected $table = 'img_product';
 
     public function products(){
-    	return $this->belongsTo('App\Products','id_product','id');
+    	return $this->belongsTo('App\Laptop','id_product','id');
     }
 }

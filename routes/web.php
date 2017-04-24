@@ -18,6 +18,7 @@ Route::get('login', 'LoginController@getAdmin');
 Route::post('login','LoginController@postAdmin');
 Route::get('logout', 'LoginController@getLogout');
 Route::get('test','UserController@test');
+Route::get('test2','FontendController@hihi');
 
 Route::group(['middleware' => 'adminlogin'], function(){
 	Route::group(['prefix' => 'backend'], function() {

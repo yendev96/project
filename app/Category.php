@@ -11,6 +11,6 @@ class Category extends Model
 
 
     public function mathang(){
-    	return $this->hasMany('App\Products','id_category','id');
+    	return $this->hasMany('App\Mathang','id_category','id');
     }
 }

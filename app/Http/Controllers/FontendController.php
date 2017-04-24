@@ -26,6 +26,11 @@ class FontendController extends Controller
 // Share cho các function khác
         view()->share('nav', $nav);
     }
+
+    public function hihi(){
+        $a = Laptop::find(32)->img_product;
+        return '$a';
+    }
 // Hiển thị trang chủ website
     public function index(){
 // load view

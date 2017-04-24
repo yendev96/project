@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\theme"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\thuctap"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://localhost:8888/project"
+		}
+	}
+}
